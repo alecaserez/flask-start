@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.analysis.disabled": ["unresolved-import", "use-before-def"],
+    "files.exclude": {
+        "**/cloud_sql_proxy": true,
+        "**/*.python-version": true,
+        "**/env": true,
+        "**/*.pyc": {"when": "$(basename).py"}, 
+        "**/__pycache__": true
+    },
+}

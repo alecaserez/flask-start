@@ -1,29 +1,45 @@
-*.py[co]
-*.DS_*
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
 .installed.cfg
+*.egg
+MANIFEST
 
-# Installer logs
-pip-log.txt
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Unit test / coverage reports
-.coverage
-.tox
+# pyenv
+.python-version
 
-#Translations
-*.mo
+# files
 
-#Mr Developer
-venv
-*.pyc
-build
+
